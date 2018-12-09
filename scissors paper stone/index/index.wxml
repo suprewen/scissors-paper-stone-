@@ -1,0 +1,26 @@
+<view class="downview">
+
+  <text class='winnum'>你已经获胜了
+  <text class='winnum' style='color:red'>{{winnum}}</text>次</text>
+  <view class='showview'>
+    <image src='{{imgAiScr}}' class='getUserImg'></image>
+    <text class='winOrLose' style='color:red'>{{gameResult}}</text>
+    <image src='{{imgUserSrc}}' class='getUserImgr'></image>
+  </view>
+
+
+  <view class='chooseForUserView'>
+    <text class='winnum'>出拳吧！少年~</text>
+    <view class='choose-V'>
+      <block wx:for="{{srcs}}" wx:key="*this">
+        <view class='choose-view' bindtap='changeForChoose' id="{{index}}">
+          <image class='choose-image' src='{{item}}'></image>
+        </view>
+      </block>
+    </view>
+    <view class='btnview'>
+    <button class='againBtn' bindtap='again'>再来！</button>
+    </view>
+  </view>
+  
+</view>

@@ -1,0 +1,67 @@
+page{
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.winnum{
+  text-align: center;
+  display: block;
+}
+
+.downview{
+  margin-top: 20rpx;
+  text-align: center;
+  align-items: center;
+  font-size: 30rpx;
+  padding: 42px;
+}
+
+.showview{
+  height: 175rpx;
+  margin: 0 auto;
+  /* width: 330px; */
+  /* background-color: yellow; */
+}
+
+.getUserImg{
+  width: 30%;
+  height: 175rpx;
+  /* background-color: yellow;  */
+  float: left;
+}
+
+.getUserImgr{
+  width: 30%;
+  height: 175rpx;
+  /* background-color: yellow;  */
+  float: right;
+}
+
+.choose-image{
+  width: 33%;
+  height: 175rpx;
+  float: left;
+}
+
+.winOrLose{
+  display: block;
+  width:40%; 
+  /*height: 200rpx; */
+  align-items: center;
+  /* background-color: royalblue; */
+  line-height: 200rpx;
+  float: left;
+}
+
+.chooseForUserView{
+  height: 600rpx;
+  background-color: #ccc;
+  padding: 20px;
+  align-items: center;
+  align-content: center;
+}
+
+.btnview{
+  display: block;
+}
